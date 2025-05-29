@@ -12,7 +12,8 @@ const commentRoutes = require('./routes/comment');
 // [SECTION] Environment Setup
 const app = express();
 const corsOptions = {
-    origin: ['http://localhost:3000'], 
+    origin: ['http://localhost:3000',
+        'https://blog-app-api-q23z.onrender.com'], 
     credentials: true,
     optionsSuccessStatus: 200
 };
