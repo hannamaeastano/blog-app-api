@@ -13,7 +13,8 @@ const commentRoutes = require('./routes/comment');
 const app = express();
 const corsOptions = {
     origin: ['http://localhost:3000',
-        'https://blog-app-api-q23z.onrender.com'], 
+        'https://blog-app-api-q23z.onrender.com',
+        'https://blog-app-client-two-swart.vercel.app'], 
     credentials: true,
     optionsSuccessStatus: 200
 };
